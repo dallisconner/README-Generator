@@ -1,25 +1,25 @@
-#readme gen
-##Table of Contents
-[object Object]
-
-##Description
-makes readmes
-
-##Usage
-run the thing
-
-##Installation
+# readme gen
+## Installation
 plug it in
 
-##License
-MIT
+## Table of Contents
+[object Object]
 
-##Tests
+## Contributing
+give me money?
+
+## Tests
 so many
 
-##Contributing
-give me money
+## License
+MIT
 
-##Questions
-DC
-DC@dc.io
+## Questions
+dallisconner
+dc@dc.io
+## Description
+makes readmes
+
+## Usage
+run the thing
+

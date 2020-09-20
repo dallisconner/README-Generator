@@ -8,14 +8,14 @@ var answers = ["","","","","","","",""];
 function writeAnswers(response)
 {
 
-  answers[0] = "##Description" + '\n' + response.description + '\n';
-  answers[1] = "##Table of Contents" + '\n' + response + '\n';
-  answers[2] = "##Installation" + '\n' + response.installation + '\n';
-  answers[3] = "##Usage" + '\n' + response.usage + '\n';
-  answers[4] = "##License" + '\n' + response.license + '\n';
-  answers[5] = "##Contributing" + '\n' + response.contributing + '\n';
-  answers[6] = "##Tests" + '\n' + response.tests + '\n';
-  answers[7] = "##Questions" + '\n' + response.questionsGH + '\n' + response.questionsEmail;
+  answers[0] = "## Description" + '\n' + response.description + '\n';
+  answers[1] = "## Table of Contents" + '\n' + response + '\n';
+  answers[2] = "## Installation" + '\n' + response.installation + '\n';
+  answers[3] = "## Usage" + '\n' + response.usage + '\n';
+  answers[4] = "## License" + '\n' + response.license + '\n';
+  answers[5] = "## Contributing" + '\n' + response.contributing + '\n';
+  answers[6] = "## Tests" + '\n' + response.tests + '\n';
+  answers[7] = "## Questions" + '\n' + response.questionsGH + '\n' + response.questionsEmail;
 
 }
 
@@ -90,7 +90,7 @@ function init() {
   ])
   .then(function(response) {
 
-    fs.writeFile("README.md", "#" + response.title + '\n', function(err) {
+    fs.writeFile("README.md", "# " + response.title + '\n', function(err) {
       if (err) {
         return console.log(err);
       }
